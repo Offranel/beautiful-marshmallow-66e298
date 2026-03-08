@@ -1,0 +1,142 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: #000;
+        }
+
+        /* TOP RED HEADER */
+        header {
+            background-color: goldenrod;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+
+        /* CONTENT */
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.8;
+        }
+
+        a {
+            color: goldenrod;
+            font-size: 20px;
+        }
+
+        /* LOGIN */
+        .login {
+            margin-top: 30px;
+            border-top: 2px solid goldenrod;
+            padding-top: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 12px;
+            font-size: 18px;
+            width: 100%;
+            background-color:#2e7d32;
+            color: white;
+            border: none;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 16px;
+            color:#00695c;
+        }
+        /* le point dans le priere fort*/
+        ul {
+    list-style-type: disc;
+}
+
+
+h3{
+    color: goldenrod;
+    
+}
+h1{
+    color: beige;
+}
+
+header{
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    transition: background-image 1s ease-in-out;
+}
+
+/* CSS*/
+.navbar{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    padding:20px;
+    background:white;
+}
+
+.navbar a{
+    padding:10px 18px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    border-radius:6px;
+}
+
+/* couleurs */
+.navbar a:nth-child(1){background:#1b5e20;}
+.navbar a:nth-child(2){background:#2e7d32;}
+.navbar a:nth-child(3){background:#00695c;}
+.navbar a:nth-child(4){background:#1565c0;}
+.navbar a:nth-child(5){background:#5c6bc0;}
+.navbar a:nth-child(6){background:#455a64;}
+.navbar a:nth-child(7){background:#37474f;}
+
+/* participer nos programmes */
+
+.programme-button{
+    display:inline-block;
+    padding:12px 22px;
+    background:beige;
+    color:darkgreen;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:6px;
+    font-size:18px;
+}
+
+.programme-button:hover{
+    opacity:0.9;
+}
+
+/* image de gallery*/
+
+.gallery img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
